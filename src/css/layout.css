@@ -1,0 +1,124 @@
+
+.container {
+  /* width: 96rem; */
+  height: 100%;
+  margin: 0 auto;
+}
+
+.visually-hidden {
+  /* stylelint-disable */
+  position: absolute !important;
+  /* stylelint-enable */
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
+.active {
+  border: .1rem solid var(--navBlue);
+  border-radius: 1rem;
+  border-spacing: 1rem;
+}
+ .navigatie {
+  display: flex;
+  padding-top: 1em;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+.navigatie__logo {
+  list-style: none;
+}
+.navigatie__flex {
+  display: flex;
+  align-items: flex-end;
+  list-style: none;
+  border-bottom: solid .1rem var(--navBlue);
+  justify-content: space-between;
+  height: 11vh;
+
+}
+.navigatie__tutorial--list {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70vw;
+  margin-bottom: 2vh;
+
+}
+
+
+h2{
+  font-family: Yusei;
+  font-size: var(--fontTitle);
+  text-align: center ;
+  margin: 0 auto;
+}
+
+.button {
+  border: none;
+  background: none;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns:  repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  margin: 0 auto;
+
+  justify-items: center;
+  align-items: center;
+
+  font-family: Sanchez, sans-serif;
+  font-size: var(--fontFooter) ;
+  color: var(--white);
+
+  margin-top: 3vw;
+  padding-top: 3vw;
+  border-top: solid .1rem var(--green);
+}
+
+.footer__list{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__socialMedia{
+  width: 33vh;
+}
+
+.footer__cookies {
+  width: 50vh;
+}
+@media (max-width: 400px) {
+  .footer__cookies {
+    width: 20vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .row__flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .workshop {
+    background-color: var(--navBlue);
+  }
+
+  .workshop__text {
+    color: var(--black);
+  }
+  .promo__text {
+    width: 80vw;
+  }
+  .special__info--title {
+    margin-top: 3vw;
+  }
+  .sponsors__img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,59 @@
+@import './css/reset.css';
+@import './css/tutorial.css';
+@import './css/vars.css';
+@import './css/layout.css';
+@import './css/index.css';
+@import './css/buttons.css';
+
+
+
+@font-face {
+  font-family: Roboto;
+  src:
+    url('./assets/fonts/Roboto-Light.woff') format('woff'),
+    url('./assets/fonts/Roboto-Light.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Yusei;
+  src:
+    url('./assets/fonts/YuseiMagic-Regular.woff') format('woff'),
+    url('./assets/fonts/YuseiMagic-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Sanchez;
+  src:
+    url('./assets/fonts/Sanchez-Regular.woff') format('woff'),
+    url('./assets/fonts/Sanchez-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: var(--backgroundColor);
+  background-image: url('assets/img/backgroundGrain.png');
+  background-repeat: repeat;
+}
+
+/* stylelint-disable */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+/* stylelint-enable */
+
+body {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: Sanchez;
+}

@@ -1,0 +1,47 @@
+.navigatie__tutorial--item {
+  font-family: Roboto;
+  font-size: var(--fontNav);
+  text-decoration: none;
+  color: var(--navBlue);
+}
+
+.navigatie__tutorial--item:hover {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.navigatie__tutorial--item:active {
+  position: relative;
+  top: .1rem;
+  padding:0 1vw;
+  border-bottom: solid .1rem var(--navBlue);
+  transform: translateX(.4rem);
+}
+
+.workshop__button{
+  margin: 3vw auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+.workshop__button:active{
+
+  outline: none;
+  text-emphasis: none;
+  transform: translate(.4vw, .4vw);
+}
+
+.promo__button {
+  margin: -3vw 0 4vw 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.promo__button:active{
+
+  outline: none;
+  text-emphasis: none;
+  transform: translate(.4vw, .4vw);
+}

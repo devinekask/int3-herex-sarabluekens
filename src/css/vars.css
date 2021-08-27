@@ -1,0 +1,17 @@
+:root {
+  --fontNav: 2.5rem;
+  --fontFooter: 1.5rem;
+  --fontTitle: 6rem;
+
+  --subFontTitle: 5rem;
+  --fontRegular: 2.3rem;
+  --fontTutorial: 4rem;
+
+  --white: #EAEAEA;
+  --black: #1A1A25;
+  --navBlue: #A9FAF6;
+  --blue: #1DFFF4;
+  --pink: #F270D9;
+  --green: #CFF431;
+  --backgroundColor: #1A1A25;
+}
