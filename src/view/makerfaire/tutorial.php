@@ -5,7 +5,7 @@
   <!-- dit nog maken, maar hoe??? -->
   <section class="header">
       <h2 class="header__title--white subTitle"> Saxofoon</h2>
-      <img class="header__image" src="../assets/img/saxophone.png" alt="eindresultaat image van de saxofoon" widthm="579" height="589">
+      <img class="header__image" src="../assets/img/saxophone.png" alt="eindresultaat image van de saxofoon" width="579" height="589">
       <img class="header__image--back"  src="../../assets/img/tutorialbackground2.png" alt="notenbalk partituur" width="1440" height="587">
       <p class="header__text">In enkele kleine stappen maak je hier je eigen saxofoon! Maar laten we eerst zien wat je er allemaal voor nodig hebt.</p>
   </section>
@@ -71,7 +71,7 @@
         <div class="kit__info--text">
           <p class="kit__info--price kit__item">€49.99</p>
           <p class="kit__info--description kit__item">Deze box bevat al het materiaal dat hierboven staat om deze tutorial te maken.</p>
-          <a class="kit__button button " href="index.php?page=bestel"><img class="kit__item" src="../../assets/img/naarBestellen.svg"  alt="Naar de bestel pagina "width="243" height="81"></a>
+          <a class="kit__button button " href="index.php?page=bestel"><img class="kit__item" src="../../assets/img/naarBestellen.svg"  alt="Naar de bestel pagina " width="243" height="81"></a>
         </div>
       </div>
 
@@ -89,7 +89,7 @@
         <div class="infopage__info">
           <div class="infopage__info--div">
             <img class="infopage__info--icon" src="../assets/img/klok.svg" alt=" Klok icoontje">
-            <p class="infopage__text"> 11 stappen</p>
+            <p class="infopage__text"> 11 stappen
             <br> ± 2uur</p>
           </div>
 

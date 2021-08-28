@@ -2,10 +2,10 @@
   <h1 class="visually-hidden">Home</h1>
 
   <section class="special">
-    <h1 class="visually-hidden"> Maker faire promo</h1>
+    <h2 class="visually-hidden"> Maker faire promo</h2>
     <div class="row__flex special__flex">
       <div class="special__info">
-        <h1 class="special__info--title visually-hidden">Maker Faire</h1>
+        <h2 class="special__info--title visually-hidden">Maker Faire</h2>
         <p class="special__info--date visually-hidden" > 30/04 - 02/05</p>
         <img class="special__info--image" src="../../assets/img/Header.png" alt="reclame voor de maker Faire met de datum van het festival.">
       </div>
@@ -36,7 +36,7 @@
       <div class="flex__column">
         <p class="promo__text promo__style">De Maker Faire Gent is een technologisch doe-het-zelf festival, waar mensen samenkomen om hun creaties tentoon te stellen. Ook kan je workshops volgen, zelf demootjes knutselen of luisteren naar keynote speeches.</p>
         <p class="promo__text promo__style">Je kan er alles terugvinden dat met creatie te maken heeft: van een elektrisch longboard tot een muurschildering tot een zelfgemaakte Nintendo. </p>
-        <a class="promo__button button" href="https://www.makerfairegent.be"><img src="../../assets/img/naarMakerFaire.svg"  alt="Naar de maker faire pagina "width="260" height="90"></a>
+        <a class="promo__button button" href="https://www.makerfairegent.be"><img src="../../assets/img/naarMakerFaire.svg"  alt="Naar de maker faire pagina" width="260" height="90"></a>
       </div>
     </div>
     </article>
