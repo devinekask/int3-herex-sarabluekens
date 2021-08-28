@@ -1,5 +1,3 @@
-<?php $currentpage = 'tutorial'; ?>
-
 <article class="detail">
   <h2 class="visually-hidden">Peddalo DIY</h2>
 

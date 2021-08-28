@@ -1,35 +1,46 @@
-@import './css/reset.css';
-@import './css/tutorial.css';
-@import './css/vars.css';
-@import './css/layout.css';
-@import './css/index.css';
-@import './css/buttons.css';
+@import "./css/reset.css";
+@import "./css/tutorial.css";
+@import "./css/vars.css";
+@import "./css/layout.css";
+@import "./css/index.css";
+@import "./css/buttons.css";
 
-
+/* @font-face {
+  font-family: RobotoLight;
+  src: url("./assets/fonts/Roboto-Light.woff") format("woff"),
+    url("./assets/fonts/Roboto-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+} */
 
 @font-face {
   font-family: Roboto;
-  src:
-    url('./assets/fonts/Roboto-Light.woff') format('woff'),
-    url('./assets/fonts/Roboto-Light.woff2') format('woff2');
+  src: url("./assets/fonts/Roboto-Bold.woff") format("woff"),
+    url("./assets/fonts/Roboto-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: bold;
+}
+
+@font-face {
+  font-family: Sigmar;
+  src: url("./assets/fonts/SigmarOne-Regular.woff") format("woff"),
+    url("./assets/fonts/SigmarOne-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Yusei;
-  src:
-    url('./assets/fonts/YuseiMagic-Regular.woff') format('woff'),
-    url('./assets/fonts/YuseiMagic-Regular.woff2') format('woff2');
+  src: url("./assets/fonts/YuseiMagic-Regular.woff") format("woff"),
+    url("./assets/fonts/YuseiMagic-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: Sanchez;
-  src:
-    url('./assets/fonts/Sanchez-Regular.woff') format('woff'),
-    url('./assets/fonts/Sanchez-Regular.woff2') format('woff2');
+  src: url("./assets/fonts/Sanchez-Regular.woff") format("woff"),
+    url("./assets/fonts/Sanchez-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -38,7 +49,7 @@ html {
   font-size: 62.5%;
   box-sizing: border-box;
   background-color: var(--backgroundColor);
-  background-image: url('assets/img/backgroundGrain.png');
+  background-image: url("assets/img/backgroundGrain.png");
   background-repeat: repeat;
 }
 
