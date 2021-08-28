@@ -99,6 +99,12 @@
   margin-top: 1vw;
 }
 
+.hint {
+  display: block;
+  margin-left: auto;
+  margin-top: -10vw;
+  margin-right: 4vw;
+}
 .kit__title {
   background-image: url(../assets/img/pakket.png);
   background-size: contain;
@@ -123,7 +129,7 @@
 }
 
 .kit__item {
-  margin:  2vw 0;
+  margin: 2vw 0;
 }
 
 .kit__info--description {

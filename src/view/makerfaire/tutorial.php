@@ -59,6 +59,8 @@
 
   </article>
 
+  <img class="hint" src="../assets/img/koop.svg" alt=" verwijzing naar de mogelijkheid om een materialen pakket te bestellen" width="211" height="160">
+
   <section class= "kit">
     <h2 class=" kit__title visually-hidden">Materiaal Pakket voor tutorial</h2>
     <div class="kit__background">
@@ -74,14 +76,13 @@
       </div>
 
     </div>
-    <a><img class="workshop__button" src="../assets/img/ikWilEenPakket.svg" alt="button "></a>
-
   </section>
-  <article class="tutorial">
-    <h2 class ="visually-hidden"></h2>
 
-    <section class ="infoPage">
-      <h2 class="tutorial__title titel">Tutorial Pedalo DIY</h2>
+  <article class="tutorial">
+    <h2 class= "visually-hidden">Tutorial</h2>
+
+    <section class= "keuzePagina">
+      <h2 class="tutorial__title titel">Hoe wenst u deze tutorial te volgen?</h2>
 
       <div class="infopage__css">
         <img class="infopage__css--img" src="../assets/img/pedaloDrowning.png" alt="Image van een pedalo waar de gebruiker in het water aan het verdrinken is">
