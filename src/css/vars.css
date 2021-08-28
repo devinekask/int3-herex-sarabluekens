@@ -4,14 +4,14 @@
   --fontTitle: 6rem;
 
   --subFontTitle: 5rem;
-  --fontRegular: 2.3rem;
+  --fontRegular: 2rem;
   --fontTutorial: 1.8rem;
 
-  --white: #EAEAEA;
-  --black: #1A1A25;
-  --navBlue: #1D4A50;
-  --blue: #1DFFF4;
-  --pink: #F270D9;
-  --green: #CFF431;
-  --backgroundColor: #1A1A25;
+  --white: #eaeaea;
+  --black: #1a1a25;
+  --navBlue: #1d4a50;
+  --blue: #1dfff4;
+  --pink: #f270d9;
+  --green: #cff431;
+  --backgroundColor: #1a1a25;
 }

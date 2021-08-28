@@ -9,7 +9,6 @@ class MakerfaireController extends Controller {
     $this->makerfaireDAO = new MakerfaireDAO();
   }
 
-  //PER DEZE FUNCTIE MOET JE EEN ROUTE HEBBEN IN INDEX//
   public function index() {
 
   }
