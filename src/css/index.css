@@ -78,13 +78,6 @@
   padding: 4vw 0 0 12vw;
 }
 
-.workshop__title--dark {
-  position: absolute;
-  z-index: -1;
-  right: 8vw;
-  top: -11vw;
-}
-
 .workshop__image {
   width: 50%;
   height: 50%;
@@ -109,10 +102,16 @@
 .promo {
   color: var(--white);
 }
+
 .promo__style {
   text-align: left;
   margin-bottom: 3vw;
   margin-left: 5vw;
+}
+
+.promo__title {
+  text-align: center;
+  margin-top: 10vw;
 }
 
 .promo__image {
@@ -121,13 +120,14 @@
 
 .promo__text {
   font-size: var(--fontRegular);
+  width: 45vw;
 }
 
 .promo__flex {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 10vw auto 5vw auto;
+  margin: 3vw auto 5vw auto;
   padding: 0;
 }
 
