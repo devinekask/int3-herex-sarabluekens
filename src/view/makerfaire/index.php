@@ -18,16 +18,18 @@
   <div class="overgang">
     <img class="overgang__noten" src="../../assets/img/noten.png" alt="versiering die lijkt op een notenbalk uit een partituur." width="774" height="159">
   </div>
-  <section class="workshop">
-    <div>
-    <div class="overflow">
-      <img class="workshop__title--dark" src="../../assets/img/DIY.png" alt="tekst in de achtergrond" width="413" height="206">
-      <h2 class="workshop__title--white"> Saxofoon</h2>
-    </div>
-    <p class="workshop__text">Voor de creatievelingen onder jullie die niet langer meer kunnen stil zitten, bieden we een ”Coronaproof” workshop aan. Raak met deze tutorial al helemaal in de creatieve sfeer en maak je eigen Saxofoon! </p>
+  <section class="workshop flex__row">
+    <div class="workshop__info">
 
-    <button class="workshop__button button" href="index.php?page=tutorial"><img  src="../assets/img/naarTutorial.png" alt="Stuurt je naar de tutorial pagina " width="344" height="84"></button>
-  </div>
+      <div class="overflow">
+        <!-- <img class="workshop__title--dark" src="../../assets/img/DIY.png" alt="tekst in de achtergrond" width="413" height="206"> -->
+        <h2 class="workshop__title--white"> Saxofoon</h2>
+      </div>
+
+      <p class="workshop__text">Voor de creatievelingen onder jullie die niet langer meer kunnen stil zitten, bieden we een ”Coronaproof” workshop aan. Raak met deze tutorial al helemaal in de creatieve sfeer en maak je eigen Saxofoon! </p>
+      <a class="workshop__button button" href="index.php?page=tutorial"><img  src="../assets/img/naarTutorial.png" alt="Stuurt je naar de tutorial pagina " width="344" height="84"></a>
+    </div>
+
     <img class="workshop__image" src="../../assets/img/RobotSax.png" alt="Teaser van de saxofoon met het Maker Faire robotje" width="725" height="556">
   </section>
 
@@ -42,8 +44,6 @@
     </div>
     <a class="promo__button button" href="https://www.makerfairegent.be"><img src="../../assets/img/leerMeer.svg"  alt="Naar de maker faire pagina "width="349" height="121"></a>
     </article>
-
-    <a class="testbutton">Testa </a>
 
   <img class="car" src="../assets/img/car.png" alt="autootje" width="">
   <section class="sponsors">

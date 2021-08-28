@@ -51,76 +51,66 @@
 .overgang__noten {
   height: auto;
   width: 77%;
+  margin: 5vw auto;
 }
 
 .workshop {
   width: 100vw;
   margin-top: 5vw;
+  justify-content: space-between;
 }
+
+.workshop__info {
+  margin-right: 13vw;
+  justify-content: start;
+}
+
 .overflow {
   position: relative;
 }
 
 .workshop__title--white {
+  background-image: url(../assets/img/DIY.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: -2rem -4rem; ;
+
+
+  height: 15vw;
   text-align: right;
   font-family: Yusei;
   font-size: var(--fontTitle);
   color: var(--white); /* Will override color (regardless of order) */
-  margin: 16vw 16vw 0 0; /*top right bottom left */
+  padding: 4vw 0 0 12vw;
 }
 
 .workshop__title--dark {
   position: absolute;
   z-index: -1;
-  margin-right: 21vw;
-  right: 1vw;
+  right: 8vw;
   top: -11vw;
 }
 
 .workshop__image {
-  width: 75%;
-  height: auto;
-  margin: 0 auto;
-}
-
-.rotate {
-  transform: rotate(5deg);
+  width: 50%;
+  height: 50%;
+  margin: 0;
 }
 
 .workshop__text {
   font-size: var(--fontRegular);
-
+  width: 30vw;
   color: var(--white);
-  text-align: center;
-  width: 50vw;
+  text-align: left;
   margin: 0 auto;
+  padding: 2vw 0;
+
 }
 
-.workshop__button--container {
+.flex__row {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
-  justify-content: center;
-  width: 33vw;
-  margin-top: 30px;
-  padding: 30px;
-  border: 2px solid  var(--green);
-  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
-  height: 9vw;
-}
-
-.workshop__button2 {
-  font-family: RobotoNormal;
-
-  display: block;
-  height: 71px;
-  width: 31vw;
-  background-color: var(--black);
-  border: solid var(--green);
-  border-width: .2vw .2vw;
-  color: var(--green);
-  font-size: 3.9rem;
-  margin: -37px 0px -25px -37px;
-
 }
 
 .promo {
@@ -190,7 +180,8 @@
     width: 60vw;
     height: auto;
   }
-  .row__flex {
+
+  .flex__row {
     display: flex;
     flex-direction: row;
   }
