@@ -25,6 +25,9 @@
       <h2 class="workshop__title--white"> Saxofoon</h2>
     </div>
     <p class="workshop__text">Voor de creatievelingen onder jullie die niet langer meer kunnen stil zitten, bieden we een ”Coronaproof” workshop aan. Raak met deze tutorial al helemaal in de creatieve sfeer en maak je eigen Saxofoon! </p>
+    <div class="workshop__button--container">
+      <button class="workshop__button2">Naar Tutorial</button>
+    </div>
     <a class="workshop__button button" href="index.php?page=tutorial"><img  src="../assets/img/maakJeEigenPedalo.svg" alt="Maak je eigen pedalo button " width="312" height="123"></a>
   </div>
     <img class="workshop__image" src="../../assets/img/RobotSax.png" alt="Teaser van de saxofoon met het Maker Faire robotje" width="725" height="556">

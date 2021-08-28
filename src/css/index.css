@@ -69,11 +69,12 @@
   margin: 16vw 16vw 0 0; /*top right bottom left */
 }
 
-.workshop__title--dark{
+.workshop__title--dark {
   position: absolute;
   z-index: -1;
   margin-right: 21vw;
   right: 1vw;
+  top: -11vw;
 }
 
 .workshop__image {
@@ -95,6 +96,33 @@
   margin: 0 auto;
 }
 
+.workshop__button--container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33vw;
+  margin-top: 30px;
+  padding: 30px;
+  border: 2px solid  var(--green);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.25);
+  height: 9vw;
+}
+
+.workshop__button2 {
+  font-family: RobotoNormal;
+
+  display: block;
+  height: 71px;
+  width: 31vw;
+  background-color: var(--black);
+  border: solid var(--green);
+  border-width: .2vw .2vw;
+  color: var(--green);
+  font-size: 3.9rem;
+  margin: -37px 0px -25px -37px;
+
+}
+
 .promo {
   color: var(--white);
 }
@@ -106,6 +134,7 @@
   width: 45vw;
   text-align: left;
   margin: 2vw auto;
+  font-size: var(--fontRegular);
 }
 
 .promo__text--adress {
@@ -163,7 +192,7 @@
   }
   .row__flex {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .workshop__text {
