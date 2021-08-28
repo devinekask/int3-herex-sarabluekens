@@ -15,7 +15,7 @@
     </script>
 </div>
   <header>
-    <h2 class="visually-hidden">Saxofoon Mini-Site</h2>
+    <h2 class="visually-hidden">Saxofoon Mini-Site.</h2>
 
     <!-- navigatie -->
     <nav class= "navigatie">
