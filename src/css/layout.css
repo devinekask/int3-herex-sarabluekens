@@ -65,17 +65,11 @@
   color: var(--blue);
 }
 
-/* h2 {
+.subTitle {
   font-family: Yusei;
   font-size: var(--fontTitle);
-  text-align: center;
-  margin: 0 auto;
+  color: var(--white);
 }
-
-.button {
-  border: none;
-  background: none;
-} */
 
 .footer {
   display: grid;

@@ -4,6 +4,7 @@
   width: 100%;
   height: auto;
 }
+
 .special {
   font-family: Yusei;
 }
@@ -65,22 +66,15 @@
   justify-content: start;
 }
 
-.overflow {
-  position: relative;
-}
-
 .workshop__title--white {
   background-image: url(../assets/img/DIY.png);
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: -2rem -4rem; ;
-
+  background-position: -2rem -4rem;
 
   height: 15vw;
   text-align: right;
-  font-family: Yusei;
-  font-size: var(--fontTitle);
-  color: var(--white); /* Will override color (regardless of order) */
+  /* Will override color (regardless of order) */
   padding: 4vw 0 0 12vw;
 }
 
@@ -104,7 +98,6 @@
   text-align: left;
   margin: 0 auto;
   padding: 2vw 0;
-
 }
 
 .flex__row {
@@ -116,29 +109,32 @@
 .promo {
   color: var(--white);
 }
-.promo__title {
-  margin: 10vw auto 3vw;
+.promo__style {
+  text-align: left;
+  margin-bottom: 3vw;
+  margin-left: 5vw;
+}
+
+.promo__image {
+  margin-left: 5vw;
 }
 
 .promo__text {
-  width: 45vw;
-  text-align: left;
-  margin: 2vw auto;
   font-size: var(--fontRegular);
 }
 
-.promo__text--adress {
-  text-align: center;
-  font-size: 2.5rem;
-}
-
 .promo__flex {
+  display: flex;
   justify-content: space-around;
+  align-items: center;
+  margin: 10vw auto 5vw auto;
+  padding: 0;
 }
 
 .car {
-  display: flex;
-  margin: auto 0 auto auto;
+  width: 98vw;
+  height: auto;
+  margin-bottom: -1vw;
 }
 
 .sponsors__img {
@@ -146,6 +142,11 @@
   padding: 4vw;
   display: flex;
   justify-content: space-around;
+}
+
+.sponsors__img--item {
+  width: 13vw;
+  height: auto;
 }
 
 @media (max-width: 400px) {
@@ -190,17 +191,15 @@
     color: var(--black);
   }
 
-  .workshop__button {
-    background-color: var(--black);
-  }
-
   .promo__text {
     width: 80vw;
     font-size: 2.5rem;
   }
+
   .special__info--title {
     margin-top: 3vw;
   }
+
   .sponsors__img {
     display: flex;
     flex-wrap: wrap;
