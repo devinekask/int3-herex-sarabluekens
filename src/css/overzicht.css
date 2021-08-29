@@ -7,7 +7,7 @@
 }
 
 .overzicht__button--terug:hover {
-  border-bottom: 0.3rem solid var(--white);
+  border-bottom: 0.2rem solid var(--white);
 }
 
 .overzicht__button--image:hover {

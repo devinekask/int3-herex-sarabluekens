@@ -1,0 +1,64 @@
+.stap__title {
+  text-align: center;
+}
+
+.body {
+  margin: 7vw 0;
+}
+
+.stap__flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 0 3vw;
+}
+
+.stap__deel {
+  margin: 0 3vw;
+  width: 30vw;
+}
+
+.stap__deel--text {
+  color: var(--white);
+  font-size: var(--fontRegular);
+  margin-top: 1vw;
+}
+
+.stap__deel--img {
+  width: 25vw;
+  height: auto;
+}
+
+.buis {
+  width: 20vw;
+}
+
+.klein {
+  margin-bottom: 8vw;
+}
+
+.lang {
+  height: 34vw;
+  width: auto;
+}
+
+.noten1 {
+  height: 50vh;
+}
+
+.noten2 {
+  margin: 0 -3vw;
+}
+
+.noten3 {
+  width: 12vw;
+  margin: 0 2vw;
+}
+
+.stap__deel--span {
+  color: var(--pink);
+}
+
+.noten {
+  padding: 0 3vw;
+}
