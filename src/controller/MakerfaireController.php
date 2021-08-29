@@ -16,16 +16,20 @@ class MakerfaireController extends Controller {
   public function tutorial() {
   }
 
+
+
+  public function overzicht() {
+  }
+
+
+  public function stap1() {
+  }
+
   public function bedankt() {
   }
-
-  public function winkelkar() {
-  }
-
+  
   public function verzendgegevens() {
   }
 
-  public function shop() {
-  }
 }
 ?>

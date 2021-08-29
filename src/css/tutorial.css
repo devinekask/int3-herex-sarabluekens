@@ -142,35 +142,39 @@
   font-family: Yusei;
   color: var(--blue);
 }
-/* .kits {
-  padding-top: 3vw;
+.overzicht {
+  width: 100vw;
+  margin: 0 auto;
+}
+.overzicht__title--white {
+  background-image: url(../assets/img/saxofoon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  margin: 4vw auto;
+  height: 15vw;
+  width: 80vw;
+  text-align: right;
+  padding: 10vw 3vw 0 12vw;
 }
 
-.kits__text {
+.overzicht__title {
+  color: var(--white);
   font-size: var(--fontRegular);
   text-align: center;
+  margin-bottom: 2vw;
 }
 
-.kits__flex {
-  padding-top: 5vw;
+.overzicht__buttons {
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: content;
 }
 
-.kits__background {
-  background-color: var(--white);
-  height: 25vw;
-  margin-bottom: 20vw;
+.overzicht__button {
+  margin: 1vw;
 }
-
-.kit__name {
-  color: var(--white);
-  margin-top: -4vw;
-  font-size: 3.8rem;
-  font-family: Yusei;
-}
+/* .kits {
 
 .infopage__css {
   display: flex;

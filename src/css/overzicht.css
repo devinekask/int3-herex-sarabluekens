@@ -1,0 +1,19 @@
+.overzicht__button:active {
+  transform: translate(0.4vw, 0.4vw);
+}
+.overzicht__button--terug {
+  position: absolute;
+  margin: 2vw;
+}
+
+.overzicht__button--terug:hover {
+  border-bottom: 0.3rem solid var(--white);
+}
+
+.overzicht__button--image:hover {
+  border: 0.2rem solid var(--blue);
+}
+
+.holding {
+  border: 0.2rem solid var(--blue);
+}

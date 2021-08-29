@@ -1,8 +1,6 @@
 <article class="detail">
   <h2 class="visually-hidden">Saxofoon tutorial </h2>
 
-
-  <!-- dit nog maken, maar hoe??? -->
   <section class="header">
       <h2 class="header__title--white subTitle"> Saxofoon</h2>
       <img class="header__image" src="../assets/img/saxophone.png" alt="eindresultaat image van de saxofoon" width="579" height="589">
@@ -61,7 +59,7 @@
 
   <img class="hint" src="../assets/img/koop.svg" alt=" verwijzing naar de mogelijkheid om een materialen pakket te bestellen" width="211" height="160">
 
-  <section class= "kit">
+  <section class= "kit" id="kit">
     <h2 class=" kit__title visually-hidden">Materiaal Pakket voor tutorial</h2>
     <div class="kit__background">
       <h2 class="kit__title subTitle"> Materiaal Kit</h2>
@@ -78,47 +76,16 @@
     </div>
   </section>
 
-  <article class="tutorial">
-    <h2 class= "visually-hidden">Tutorial</h2>
+  <article class="overzicht">
+  <h2 class="overzicht__title--white subTitle"> Let's begin</h2>
+    <section class= "overzicht">
+      <h2 class="overzicht__title">Hoe wenst u deze tutorial te volgen?</h2>
 
-    <section class= "keuzePagina">
-      <h2 class="tutorial__title titel">Hoe wenst u deze tutorial te volgen?</h2>
-
-      <div class="infopage__css">
-        <img class="infopage__css--img" src="../assets/img/pedaloDrowning.png" alt="Image van een pedalo waar de gebruiker in het water aan het verdrinken is">
-        <div class="infopage__info">
-          <div class="infopage__info--div">
-            <img class="infopage__info--icon" src="../assets/img/klok.svg" alt=" Klok icoontje">
-            <p class="infopage__text"> 11 stappen
-            <br> ± 2uur</p>
-          </div>
-
-          <div class="infopage__info--div">
-            <img class="infopage__info--icon" src="../assets/img/niveau.svg" alt=" Gemiddelde Moeilijkheidsgraag icoontje">
-            <p class="infopage__text"> Gemiddeld</p>
-          </div>
-
-          <div class="infopage__info--div">
-            <img class="infopage__info--icon" src="../assets/img/toezicht.svg" alt=" Ouderlijk toezicht vereist icoontje">
-            <p class="infopage__text"> Ouderlijk Toezicht Vereist</p>
-          </div>
-        </div>
+      <div class="overzicht__buttons">
+        <a class="overzicht__button" href="index.php?page=overzicht"><img class="controls__image" src="../assets/img/metMuisButton.png" alt="afbeelding van een comutermuis" width="580" height="427">  </a>
+        <a class="overzicht__button" href="index.php?page=overzicht"><img class="controls__image" src="../assets/img/zonderMuisButton.png" alt="afbeelding van een comutermuis met een kruis door"width="580" height="427">  </a>
       </div>
-      <a><img class="workshop__button" src="../assets/img/begin.svg" alt="button om de tutorial te beginnen"></a>
 
     </section>
-
-    <section class ="loadingscreen">
-      <h2 class="tutorial__title titel">Verschillende stappen inladen...</h2>
-
-      <div class = loadingscreen__info>
-        <img class="loadingscreen__info--laden" src="../assets/img/loading.svg" alt="Loading icon dat rond draait om aan te tonen dat het bezig is met laden.">
-        <img class="loadingscreen__info--intro" src="../assets/img/handIntro.png" alt="Introductie tot de touchless bediening van de tutorial">
-        <p class="loadingscreen__info--text ondertitel"> Steek je hand op naar de camera om naar de volgende stap te gaan.</p>
-
-      </div>
-    </section>
-
   </article>
-
 </article>

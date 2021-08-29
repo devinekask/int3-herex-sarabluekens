@@ -22,11 +22,15 @@ $routes = array(
       'action' => 'tutorial'
     ),
 
-    'winkelkar' => array(
+    'overzicht' => array(
       'controller' => 'Makerfaire',
-      'action' => 'winkelkar'
+      'action' => 'overzicht'
     ),
 
+    'stap1' => array(
+      'controller' => 'Makerfaire',
+      'action' => 'stap1'
+    ),
 
     'verzendgegevens' => array(
       'controller' => 'Makerfaire',
@@ -36,10 +40,6 @@ $routes = array(
     'bedankt' => array(
       'controller' => 'Makerfaire',
       'action' => 'bedankt'
-    ),
-    'shop' => array (
-      'controller' => 'Makerfaire',
-      'action' => 'shop'
     )
   );
 
