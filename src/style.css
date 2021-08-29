@@ -6,14 +6,8 @@
 @import "./css/buttons.css";
 @import "./css/overzicht.css";
 @import "./css/stap.css";
+@import "./css/winkelkar.css";
 
-/* @font-face {
-  font-family: RobotoLight;
-  src: url("./assets/fonts/Roboto-Light.woff") format("woff"),
-    url("./assets/fonts/Roboto-Light.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-} */
 
 @font-face {
   font-family: Roboto;

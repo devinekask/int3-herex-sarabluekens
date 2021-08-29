@@ -1,6 +1,5 @@
 <article class="homepage">
   <h1 class="visually-hidden">Home</h1>
-  <script> currentPage = ''; </script>
 
   <section class="special">
     <h2 class="visually-hidden"> Maker faire promo</h2>

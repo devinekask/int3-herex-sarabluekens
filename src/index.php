@@ -13,70 +13,70 @@ if (file_exists("../.env")) {
 
 $routes = array(
   'home' => array(
-    'controller' => 'Makerfaire',
+    'controller' => 'Makerfaires',
     'action' => 'index'
   ),
 
     'tutorial' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'tutorial'
     ),
 
     'overzichtM' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'overzichtM'
     ),
     'overzichtZ' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'overzichtZ'
     ),
 
     'stap1Z' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'stap1Z'
     ),
 
     'stap1M' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'stap1M'
     ),
 
     'stap2Z' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'stap2Z'
     ),
 
     'stap2M' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'stap2M'
     ),
 
     'stap3M' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'stap3M'
     ),
 
     'stap3Z' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'stap3Z'
     ),
 
     'stap4Z' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'stap4Z'
     ),
     'stap4M' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'stap4M'
     ),
 
-    'verzendgegevens' => array(
-      'controller' => 'Makerfaire',
-      'action' => 'verzendgegevens'
+    'winkelkar' => array(
+      'controller' => 'Makerfaires',
+      'action' => 'winkelkar'
     ),
 
     'bedankt' => array(
-      'controller' => 'Makerfaire',
+      'controller' => 'Makerfaires',
       'action' => 'bedankt'
     )
   );

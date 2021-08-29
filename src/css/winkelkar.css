@@ -1,0 +1,35 @@
+.bestellen__info--title {
+  text-align: center;
+}
+
+.bestellen__info--text {
+  margin-bottom: 5vw;
+}
+
+.cart {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(2, 21vw);
+  grid-template-rows: repeat(2, 9vw);
+  justify-content: center;
+}
+
+.cart__data--item {
+  width: 25vw;
+}
+
+.cart__data--label {
+  color: var(--blue);
+  margin: 1vw;
+}
+
+.cart__input--number {
+  width: 7vw;
+}
+
+.cart__data--img {
+  height: 20vw;
+  width: auto;
+  display: block;
+  margin-left: auto;
+}

@@ -1,6 +1,6 @@
 <article class="detail">
   <h2 class="visually-hidden">Saxofoon tutorial </h2>
-
+  <!-- dit nog maken, maar hoe??? -->
   <section class="header">
       <h2 class="header__title--white subTitle"> Saxofoon</h2>
       <img class="header__image" src="../assets/img/saxophone.png" alt="eindresultaat image van de saxofoon" width="579" height="589">
@@ -13,6 +13,7 @@
     <h2 class="materials__title--white subTitle"> Nodig voor deze tutorial</h2>
     <section class = "materials__section materials__specials--background">
       <h2 class="materials__subtitle visually-hidden">Materialen</h2>
+      
       <ul class ="materials__specials">
         <li class="materials__item specials__img1">
           <img class="materials__specials--img" src="../assets/img/hoek.png" alt="afbeelding materiaal: Hoekstuk pvc buis" width="628" height="598">
@@ -77,13 +78,13 @@
   </section>
 
   <article class="overzicht">
-  <h2 class="overzicht__title--white subTitle"id="begin" > Let's begin</h2>
+  <h2 class="overzicht__title--white subTitle"> Let's begin</h2>
     <section class= "overzicht">
-      <h2 class="overzicht__title" >Hoe wenst u deze tutorial te volgen?</h2>
+      <h2 class="overzicht__title">Hoe wenst u deze tutorial te volgen?</h2>
 
       <div class="overzicht__buttons">
-        <a class="overzicht__button" href="index.php?page=overzichtM"><img class="controls__image" src="../assets/img/metMuisButton.png" alt="afbeelding van een comutermuis" width="580" height="427">  </a>
-        <a class="overzicht__button" href="index.php?page=overzichtZ"><img class="controls__image" src="../assets/img/zonderMuisButton.png" alt="afbeelding van een comutermuis met een kruis door"width="580" height="427">  </a>
+        <a class="overzicht__button" href="index.php?page=overzicht"><img class="controls__image" src="../assets/img/metMuisButton.png" alt="afbeelding van een comutermuis" width="580" height="427">  </a>
+        <a class="overzicht__button" href="index.php?page=overzicht"><img class="controls__image" src="../assets/img/zonderMuisButton.png" alt="afbeelding van een comutermuis met een kruis door"width="580" height="427">  </a>
       </div>
 
     </section>
