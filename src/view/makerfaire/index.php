@@ -8,7 +8,7 @@
       <div class="special__info">
         <h2 class="special__info--title visually-hidden">Maker Faire</h2>
         <p class="special__info--date visually-hidden" > 30/04 - 02/05</p>
-        <img class="special__info--image" src="../../assets/img/Header.png" alt="reclame voor de maker Faire met de datum van het festival.">
+        <img class="special__info--image" src="../../assets/img/header2.png" alt="reclame voor de maker Faire met de datum van het festival.">
       </div>
 
       <img class="special__image" src="../assets/img/mic.png" alt="de microfoon" width="263" height="609" >
