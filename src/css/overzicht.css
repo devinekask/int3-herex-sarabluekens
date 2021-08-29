@@ -17,3 +17,19 @@
 .holding {
   border: 0.2rem solid var(--blue);
 }
+
+@media (max-width: 420px) {
+  .overzicht__button--image {
+    position: relative;
+    width: 70vw;
+    height: auto;
+    align-self: center;
+  }
+  
+  .stappen {
+    margin-left: 20vw;
+  }
+}
+
+@media (max-width: 800px) {
+}

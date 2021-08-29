@@ -74,7 +74,6 @@
   height: auto;
 }
 
-
 .hoorn2 {
   width: 20vw;
   height: auto;
@@ -83,4 +82,78 @@
 .hoorn3 {
   width: auto;
   height: 50vh;
+}
+
+@media (max-width: 420px) {
+  .stap__title {
+    font-size: 4rem;
+  }
+  .stap__button--image {
+    width: 20vw;
+    height: auto;
+  }
+
+  .buis {
+    width: 20vw;
+  }
+
+  .stap__flex {
+    flex-direction: column;
+  }
+  .stap__deel--img {
+    width: 50vw;
+    height: auto;
+    margin-left: 14vw;
+    margin-top: 3vw;
+  }
+
+  .stap__deel--text {
+    width: 80vw;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .stap__title {
+    font-size: 4rem;
+  }
+  .stap__button--image {
+    width: 20vw;
+    height: auto;
+  }
+
+  .buis {
+    width: 20vw;
+  }
+
+  .stap__flex {
+    flex-direction: column;
+  }
+  .stap__deel--img {
+    width: 50vw;
+    height: auto;
+    margin-left: 14vw;
+    margin-top: 10vw;
+  }
+
+  .stap__deel--text {
+    width: 80vw;
+    text-align: center;
+  }
+
+  .noten1 {
+    height: 50vh;
+    width: auto;
+
+  }
+
+  .hoorn1 {
+    height: 30vh;
+    width: auto;
+    margin-left: 10vw;
+  }
+
+  .hoorn2{
+    margin-left: 20vw;
+  }
 }

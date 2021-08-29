@@ -14,12 +14,15 @@ class DAO {
     function __construct() {
 
       if(empty(self::$sharedPDO)) {
+        $dbHost = getenv('PHP_DB_HOST') ?: "localhost";
+        $dbName = getenv('PHP_DB_DATABASE') ?: "maker";
+        $dbUser = getenv('PHP_DB_USERNAME') ?: "maker";
+        $dbPass = getenv('PHP_DB_PASSWORD') ?: "maker";
 
-
-        $dbHost = getenv('PHP_DB_HOST') ?: "ID282027_20202021.db.webhosting.be";
-        $dbName = getenv('PHP_DB_DATABASE') ?: "ID282027_20202021";
-        $dbUser = getenv('PHP_DB_USERNAME') ?: "ID282027_20202021";
-        $dbPass = getenv('PHP_DB_PASSWORD') ?: "int3MakerFair";
+        // $dbHost = getenv('PHP_DB_HOST') ?: "ID282027_20202021.db.webhosting.be";
+        // $dbName = getenv('PHP_DB_DATABASE') ?: "ID282027_20202021";
+        // $dbUser = getenv('PHP_DB_USERNAME') ?: "ID282027_20202021";
+        // $dbPass = getenv('PHP_DB_PASSWORD') ?: "int3MakerFair";
 
 
         self::$sharedPDO = new PDO("mysql:host=" . $dbHost . ";dbname=" . $dbName, $dbUser, $dbPass);

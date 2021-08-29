@@ -1,6 +1,6 @@
 <article class="stap1">
   <h2 class="visually-hidden">Stap3</h2>
-  <a class="overzicht__button--terug" href="index.php?page=overzichtM"><img src="../assets/img/terug.svg" alt="terug knop die teugkeert naar de homepage" width="107" height="37"></a>
+  <a class="overzicht__button--terug" href="index.php?page=overzichtM"><img  class="stap__button--image" src="../assets/img/terug.svg" alt="terug knop die teugkeert naar de homepage" width="107" height="37"></a>
 
   <section class="stap">
     <h2 class="stap__title subTitle">NotenBlok</h2>

@@ -4,6 +4,14 @@ require_once( __DIR__ . '/DAO.php');
 
 class MakerfaireDAO extends DAO {
 
+  public function selectById($id){
+    $sql = "SELECT * FROM `Orders` WHERE `id` = :id";
+    $stmt = $this->pdo->prepare($sql);
+    $stmt->bindValue(':id', $id);
+    $stmt->execute();
+    return $stmt->fetch(PDO::FETCH_ASSOC);
+  }
+
   public function insert($data) {
     $errors = $this->validate( $data );
     if (empty($errors)) {
@@ -14,6 +22,9 @@ class MakerfaireDAO extends DAO {
       $stmt->bindValue(':straat', $data['straat']);
       $stmt->bindValue(':huisnummer', $data['huisnummer']);
       $stmt->bindValue(':aantal', $data['aantal']);
+      if ($stmt->execute()) {
+        return $this->selectById($this->pdo->lastInsertId());
+      }
     }
     return false;
   }

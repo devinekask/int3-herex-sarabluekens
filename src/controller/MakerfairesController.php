@@ -8,16 +8,17 @@ class MakerfairesController extends Controller {
   function __construct() {
     $this->makerfaireDAO = new MakerfaireDAO();
   }
-  public function index() {
+  public function winkelkar() {
   }
 
-  public function winkelkar() {
+  public function index() {
     if (!empty($_POST['action'])) {
       if ($_POST['action'] == 'InsertOrder') {
         $this->handleInsertOrder();
       }
     }
   }
+
   private function handleInsertOrder() {
     $data = array(
       'naam' => $_POST['naam'],

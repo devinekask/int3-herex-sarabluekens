@@ -3,8 +3,8 @@
   <h2 class="bestellen__info--title subTitle">Bestelling plaatsen</h2>
   <p class="bestellen__info--text overzicht__title " > We hebben enkele gegevens nodig om uw bestelling correct te kunnen verzenden.</p>
 
-  <form class="cart" id="cartform" method="post" action="index.php?page=bedankt">
-    <input type="hidden" name="action" value="cartform" />
+  <form class="cart" id="cartform" method="post" action="index.php?page=winkelkar">
+    <input type="hidden" name="action" value="insertOrder" />
 
 
     <div class="cart__data--item">

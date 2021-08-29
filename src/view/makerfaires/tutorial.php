@@ -13,7 +13,7 @@
     <h2 class="materials__title--white subTitle"> Nodig voor deze tutorial</h2>
     <section class = "materials__section materials__specials--background">
       <h2 class="materials__subtitle visually-hidden">Materialen</h2>
-      
+
       <ul class ="materials__specials">
         <li class="materials__item specials__img1">
           <img class="materials__specials--img" src="../assets/img/hoek.png" alt="afbeelding materiaal: Hoekstuk pvc buis" width="628" height="598">
@@ -28,15 +28,17 @@
           <p class="materials__specials--text" >Extra stevig ducktape</p>
         </li>
 
+        <li class="materials__item specials__img5">
+          <img class="materials__specials--img" src="../assets/img/lijm.png" alt="afbeelding materiaal: pvc buis lijm" width="628" height="598">
+          <p class="materials__specials--text" >PVC Lijm</p>
+        </li>
+
         <li class="materials__item specials__img4">
           <img class="materials__specials--img pvc" src="../assets/img/pvc40.png" alt="afbeelding materiaal: pvc buis 40cm " width="628" height="598">
           <p class="materials__specials--text" >PVC buis 40cm</p>
         </li>
 
-        <li class="materials__item specials__img5">
-          <img class="materials__specials--img" src="../assets/img/lijm.png" alt="afbeelding materiaal: pvc buis lijm" width="628" height="598">
-          <p class="materials__specials--text" >PVC Lijm</p>
-        </li>
+
 
         <li class="materials__item specials__img6">
           <img class="materials__specials--img pvc" src="../assets/img/pvc15.png" alt="afbeelding materiaal: pvc 15cm" width="628" height="598">
@@ -81,10 +83,12 @@
   <h2 class="overzicht__title--white subTitle"> Let's begin</h2>
     <section class= "overzicht">
       <h2 class="overzicht__title">Hoe wenst u deze tutorial te volgen?</h2>
+      <img class="overzicht__image--extra" src="../assets/img/saxophone.png" alt="eindresultaat image van de saxofoon" width="579" height="589">
 
       <div class="overzicht__buttons">
-        <a class="overzicht__button" href="index.php?page=overzicht"><img class="controls__image" src="../assets/img/metMuisButton.png" alt="afbeelding van een comutermuis" width="580" height="427">  </a>
-        <a class="overzicht__button" href="index.php?page=overzicht"><img class="controls__image" src="../assets/img/zonderMuisButton.png" alt="afbeelding van een comutermuis met een kruis door"width="580" height="427">  </a>
+        <a class="overzicht__button desktop" href="index.php?page=overzichtM"><img class="controls__image" src="../assets/img/metMuisButton.png" alt="afbeelding van een comutermuis" width="580" height="427">  </a>
+        <a class="overzicht__button desktop" href="index.php?page=overzichtZ"><img class="controls__image" src="../assets/img/zonderMuisButton.png" alt="afbeelding van een comutermuis met een kruis door"width="580" height="427">  </a>
+        <a class="overzicht__button mobile" href="index.php?page=overzichtM"><img class="controls__image" src="../assets/img/beginnenbutton.png" alt="afbeelding van een comutermuis met een kruis door"width="323" height="427">  </a>
       </div>
 
     </section>

@@ -21,12 +21,12 @@
 
     <!-- navigatie -->
     <nav class= "navigatie">
-        <a href="index.php" class="navigatie__logo"> <img  src="../assets/img/logo.svg" alt="logo van de Maker Faire Gent" width="82" height="98"></a></li>
+        <a href="index.php" class="navigatie__logo"> <img class="navigatie__logo--img"  src="../assets/img/logo.svg" alt="logo van de Maker Faire Gent" width="82" height="98"></a></li>
           <ul class= "navigatie__tutorial">
             <li><a class="navigatie__tutorial--item <?php if ($_GET['page'] === 'home') echo ' active' ?>" href="index.php">Home</a></li>
             <li><a class="navigatie__tutorial--item <?php if ($_GET['page'] === 'tutorial') echo ' active' ?>" href="index.php?page=tutorial">DIY</a></li>
-            <li><a class="navigatie__tutorial--item <?php if ($_GET['page'] === 'shop') echo ' active' ?>" href="index.php?page=tutorial#kit">Materiaal Kit</a></li>
-            <li><a class="navigatie__tutorial--kar" href="index.php?page=winkelkar"><img src="../assets/img/winkelwagentje.svg" alt="winkelkarretje"></a></li>
+            <li><a class="navigatie__tutorial--item navigatie__extra <?php if ($_GET['page'] === 'shop') echo ' active' ?>" href="index.php?page=tutorial#kit">Materiaal Kit</a></li>
+            <li><a class="navigatie__tutorial--kar" href="index.php?page=winkelkar"><img class="navigatie__kar--img" src="../assets/img/winkelwagentje.svg" alt="winkelkarretje"></a></li>
           </ul>
     </nav>
 

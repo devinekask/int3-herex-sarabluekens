@@ -67,21 +67,21 @@
 }
 
 .workshop__title--white {
-  background-image: url(../assets/img/DIY.png);
-  background-size: auto;
+  background-image: url(../assets/img/DIYklein.png);
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: -2rem -4rem;
+  background-position: 42rem -4rem;
 
   height: 15vw;
-  text-align: right;
+  text-align: center;
   /* Will override color (regardless of order) */
-  padding: 4vw 0 0 12vw;
+  padding: 4vw 0 0 4vw;
 }
 
 .workshop__image {
-  width: 50%;
-  height: 50%;
-  margin: 0;
+  width: 42%;
+  height: 42%;
+  margin-left: 20vw;
 }
 
 .workshop__text {
@@ -125,6 +125,7 @@
 
 .promo__flex {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
   margin: 3vw auto 5vw auto;
@@ -149,13 +150,46 @@
   height: auto;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
+  .flex__row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
   .special__info--title {
     font-size: 15vw;
   }
   .special__image {
-    width: 30vw;
+    width: 25vw;
     height: auto;
+    margin-left: -11vw;
+  }
+
+  .workshop__info {
+    margin-right: 0;
+  }
+
+  .workshop__title--white {
+    padding: 0;
+    margin: 4vw;
+  }
+
+  .workshop__text {
+    font-size: 1.6rem;
+    width: 69vw;
+  }
+
+  .workshop__image {
+    width: 75%;
+    height: 42%;
+    margin-left: 10vw;
+    margin-top: 3rem;
+  }
+
+  .workshop__button--img {
+    width: 55vw;
+    margin-top: 1rem;
   }
 
   .footer__cookies {
@@ -163,37 +197,77 @@
     flex-direction: column;
   }
   .promo__text {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    width: 69vw;
+  }
+
+  .promo__flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .promo__image {
+    width: 50vw;
+    height: auto;
+    margin-bottom: 6rem;
+  }
+
+  .promo__title {
+    text-align: center;
+    margin-top: 10vw;
+    font-size: 4rem;
+  }
+
+  .promo__button--image {
+    width: 55vw;
   }
 }
 
 @media (max-width: 800px) {
-  .special__flex {
+  .promo__flex {
     display: flex;
-    flex-direction: column;
-  }
-  /* .special__image {
-    width: 60vw;
-    height: auto;
-  } */
-
-  .promo__image {
-    width: 60vw;
-    height: auto;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3vw auto 5vw auto;
+    padding: 0;
   }
 
   .flex__row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .special__flex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .special__image {
+    left: 27vw;
+  }
+
+  .promo__image {
+    width: 50vw;
+    height: auto;
+    margin-bottom: 6rem;
   }
 
   .workshop__text {
-    color: var(--black);
+    color: var(--white);
+    width: 70vw;
+    text-align: left;
+    margin-left: 20vw;
+  }
+
+  .workshop__button--img {
+    margin-top: 3rem;
   }
 
   .promo__text {
-    width: 80vw;
-    font-size: 2.5rem;
+    font-size: 1.6rem;
+    width: 69vw;
   }
 
   .special__info--title {

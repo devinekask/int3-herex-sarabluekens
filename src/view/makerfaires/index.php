@@ -18,26 +18,27 @@
   <div class="overgang">
     <img class="overgang__noten" src="../../assets/img/noten.png" alt="versiering die lijkt op een notenbalk uit een partituur." width="774" height="159">
   </div>
-  <section class="workshop flex__row">
-    <div class="workshop__info">
-      <h2 class="workshop__title--white subTitle"> Saxofoon</h2>
+  <section class="workshop ">
+    <h2 class="workshop__title--white subTitle"> Saxofoon</h2>
+    <div class="workshop__info flex__row">
       <p class="workshop__text">Voor de creatievelingen onder jullie die niet langer meer kunnen stil zitten, bieden we een ”Coronaproof” workshop aan. Raak met deze tutorial al helemaal in de creatieve sfeer en maak je eigen Saxofoon! </p>
-      <a class="workshop__button button" href="index.php?page=tutorial"><img  src="../assets/img/naarTutorial.svg" alt="Stuurt je naar de tutorial pagina " width="344" height="84"></a>
+      <img class="workshop__image" src="../../assets/img/RobotSax.png" alt="Teaser van de saxofoon met het Maker Faire robotje" width="725" height="556">
     </div>
+    <a class="workshop__button button" href="index.php?page=tutorial"><img class="workshop__button--img" src="../assets/img/naarTutorial.svg" alt="Stuurt je naar de tutorial pagina " width="344" height="84"></a>
 
-    <img class="workshop__image" src="../../assets/img/RobotSax.png" alt="Teaser van de saxofoon met het Maker Faire robotje" width="725" height="556">
   </section>
 
   <article class="promo">
   <h2 class="promo__title promo__style subTitle">Festival der creatievelingen</h2>
 
     <div class="promo__flex row__flex">
-      <img class="promo__image" src="../assets/img/remote.png" alt="afstandsbediening die een andere image op de site bestuurd." width="446" height="557">
       <div class="flex__column">
         <p class="promo__text promo__style">De Maker Faire Gent is een technologisch doe-het-zelf festival, waar mensen samenkomen om hun creaties tentoon te stellen. Ook kan je workshops volgen, zelf demootjes knutselen of luisteren naar keynote speeches.</p>
         <p class="promo__text promo__style">Je kan er alles terugvinden dat met creatie te maken heeft: van een elektrisch longboard tot een muurschildering tot een zelfgemaakte Nintendo. </p>
-        <a class="promo__button button" href="https://www.makerfairegent.be"><img src="../../assets/img/naarMakerFaire.svg"  alt="Naar de maker faire pagina" width="260" height="90"></a>
+        <a class="promo__button button" href="https://www.makerfairegent.be"><img class="promo__button--image" src="../../assets/img/naarMakerFaire.svg"  alt="Naar de maker faire pagina" width="260" height="90"></a>
       </div>
+            <img class="promo__image" src="../assets/img/remote.png" alt="afstandsbediening die een andere image op de site bestuurd." width="446" height="557">
+
     </div>
     </article>
 

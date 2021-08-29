@@ -103,12 +103,42 @@
   width: 50vh;
 }
 @media (max-width: 400px) {
+  .navigatie__logo--img {
+    width: 15vw;
+    height: auto;
+  }
+  .navigatie__extra {
+    display: none;
+  }
+
+  .navigatie__tutorial--item {
+    margin-right: 5vw;
+  }
+
+  .navigatie__kar--img {
+    width: 10vw;
+  }
+
+  .subTitle {
+    font-family: Yusei;
+    font-size: var(--subTitleKlein);
+    color: var(--white);
+  }
+
+  .footer  {
+    margin-top: 8vh;
+  }
+
   .footer__cookies {
     width: 20vh;
   }
 }
 
 @media (max-width: 800px) {
+  .navigatie__extra {
+    display: none;
+  }
+
   .row__flex {
     display: flex;
     flex-direction: column;
@@ -129,5 +159,9 @@
   .sponsors__img {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .footer  {
+    margin-top: 8vh;
   }
 }
