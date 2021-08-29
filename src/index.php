@@ -22,14 +22,52 @@ $routes = array(
       'action' => 'tutorial'
     ),
 
-    'overzicht' => array(
+    'overzichtM' => array(
       'controller' => 'Makerfaire',
-      'action' => 'overzicht'
+      'action' => 'overzichtM'
+    ),
+    'overzichtZ' => array(
+      'controller' => 'Makerfaire',
+      'action' => 'overzichtZ'
     ),
 
-    'stap1' => array(
+    'stap1Z' => array(
       'controller' => 'Makerfaire',
-      'action' => 'stap1'
+      'action' => 'stap1Z'
+    ),
+
+    'stap1M' => array(
+      'controller' => 'Makerfaire',
+      'action' => 'stap1M'
+    ),
+
+    'stap2Z' => array(
+      'controller' => 'Makerfaire',
+      'action' => 'stap2Z'
+    ),
+
+    'stap2M' => array(
+      'controller' => 'Makerfaire',
+      'action' => 'stap2M'
+    ),
+
+    'stap3M' => array(
+      'controller' => 'Makerfaire',
+      'action' => 'stap3M'
+    ),
+
+    'stap3Z' => array(
+      'controller' => 'Makerfaire',
+      'action' => 'stap3Z'
+    ),
+
+    'stap4Z' => array(
+      'controller' => 'Makerfaire',
+      'action' => 'stap4Z'
+    ),
+    'stap4M' => array(
+      'controller' => 'Makerfaire',
+      'action' => 'stap4M'
     ),
 
     'verzendgegevens' => array(

@@ -77,13 +77,13 @@
   </section>
 
   <article class="overzicht">
-  <h2 class="overzicht__title--white subTitle"> Let's begin</h2>
+  <h2 class="overzicht__title--white subTitle"id="begin" > Let's begin</h2>
     <section class= "overzicht">
-      <h2 class="overzicht__title">Hoe wenst u deze tutorial te volgen?</h2>
+      <h2 class="overzicht__title" >Hoe wenst u deze tutorial te volgen?</h2>
 
       <div class="overzicht__buttons">
-        <a class="overzicht__button" href="index.php?page=overzicht"><img class="controls__image" src="../assets/img/metMuisButton.png" alt="afbeelding van een comutermuis" width="580" height="427">  </a>
-        <a class="overzicht__button" href="index.php?page=overzicht"><img class="controls__image" src="../assets/img/zonderMuisButton.png" alt="afbeelding van een comutermuis met een kruis door"width="580" height="427">  </a>
+        <a class="overzicht__button" href="index.php?page=overzichtM"><img class="controls__image" src="../assets/img/metMuisButton.png" alt="afbeelding van een comutermuis" width="580" height="427">  </a>
+        <a class="overzicht__button" href="index.php?page=overzichtZ"><img class="controls__image" src="../assets/img/zonderMuisButton.png" alt="afbeelding van een comutermuis met een kruis door"width="580" height="427">  </a>
       </div>
 
     </section>
