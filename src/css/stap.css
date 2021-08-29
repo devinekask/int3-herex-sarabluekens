@@ -62,3 +62,25 @@
 .noten {
   padding: 0 3vw;
 }
+
+#video {
+  position: absolute;
+  left: 15vw;
+  top: 2vw;
+}
+
+.hoorn1 {
+  width: 30vw;
+  height: auto;
+}
+
+
+.hoorn2 {
+  width: 20vw;
+  height: auto;
+}
+
+.hoorn3 {
+  width: auto;
+  height: 50vh;
+}
