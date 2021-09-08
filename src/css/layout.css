@@ -84,7 +84,7 @@
   font-size: var(--fontFooter);
   color: var(--white);
 
-  margin-top: 3vw;
+  margin: 2vw;
   padding-top: 3vw;
   border-top: solid 0.3rem var(--green);
 }
@@ -107,6 +107,7 @@
     width: 15vw;
     height: auto;
   }
+  
   .navigatie__extra {
     display: none;
   }
@@ -125,8 +126,9 @@
     color: var(--white);
   }
 
-  .footer  {
-    margin-top: 8vh;
+  .footer__logo {
+    width: 70%;
+
   }
 
   .footer__cookies {
@@ -144,9 +146,6 @@
     flex-direction: column;
   }
 
-  .workshop {
-  }
-
   .workshop__text {
     color: var(--black);
   }
@@ -156,12 +155,10 @@
   .special__info--title {
     margin-top: 3vw;
   }
+
   .sponsors__img {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .footer  {
-    margin-top: 8vh;
-  }
 }

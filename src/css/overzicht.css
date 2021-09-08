@@ -18,6 +18,44 @@
   border: 0.2rem solid var(--blue);
 }
 
+.stappen {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .stappen {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 33vw 33vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 15rem;
+  }
+
+  .stappen__stap {
+    width: 93%;
+  }
+}
+
+@media (max-width: 800px) {
+  .stappen {
+    display: grid;
+    grid-template-columns: 60vw;
+    grid-gap: 0;
+    margin-left: 3rem;
+    margin-right: auto;
+  }
+
+  .overzicht__button--terug {
+    z-index: 1;
+  }
+
+  .overzicht__button--image {
+    z-index: 0;
+  }
+}
+
 @media (max-width: 420px) {
   .overzicht__button--image {
     position: relative;
@@ -25,11 +63,8 @@
     height: auto;
     align-self: center;
   }
-  
+
   .stappen {
     margin-left: 20vw;
   }
-}
-
-@media (max-width: 800px) {
 }

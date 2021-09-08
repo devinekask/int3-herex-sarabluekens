@@ -51,7 +51,7 @@
 
 .overgang__noten {
   height: auto;
-  width: 77%;
+  width: 50%;
   margin: 5vw auto;
 }
 
@@ -67,16 +67,26 @@
 }
 
 .workshop__title--white {
-  background-image: url(../assets/img/DIYklein.png);
+  background-image: url(../assets/img/DIY.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  height: 15vw;
+  width: 32vw;
+  text-align: right;
+  padding: 9vw 3vw 0 12vw;
+  margin-top: -3vw;
+}
+/* background-image: url(../assets/img/DIYklein.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 42rem -4rem;
 
   height: 15vw;
   text-align: center;
-  /* Will override color (regardless of order) */
+  /* Will override color (regardless of order)
   padding: 4vw 0 0 4vw;
-}
+} */
 
 .workshop__image {
   width: 42%;
@@ -220,6 +230,14 @@
 
   .promo__button--image {
     width: 55vw;
+  }
+}
+
+@media (max-width: 1200px) {
+  .promo__image {
+    margin-left: 5vw;
+    width: 35%;
+    height: auto;
   }
 }
 

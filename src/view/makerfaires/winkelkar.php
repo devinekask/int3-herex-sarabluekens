@@ -47,11 +47,11 @@
         echo $_POST['aantal'];
       }
       ?>" required>
-
+     <p><span class="error error--text"><?php if (!empty($errors['text'])) echo $errors['text'];?></span></p>
     </div>
 
     <div>
-      <button class="cart__data--submit" type= "submit"> Bestelling Plaatsen</button>
+      <button class="cart__data--submit" type= "submit" onclick="window.location.href = 'index.php?page=bedankt';"> Bestelling Plaatsen</button>
     </div>
 </form>
 

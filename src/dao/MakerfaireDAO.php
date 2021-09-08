@@ -15,6 +15,7 @@ class MakerfaireDAO extends DAO {
   public function insert($data) {
     $errors = $this->validate( $data );
     if (empty($errors)) {
+      // familienaam
       $sql = "INSERT INTO `Orders` (`naam`, `voornaam`, `straat`, `huisnummer`, `aantal`) VALUES (:naam, :voornaam, :straat, :huisnummer, :aantal)";
       $stmt = $this->pdo->prepare($sql);
       $stmt->bindValue(':naam', $data['naam']);

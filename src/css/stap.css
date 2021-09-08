@@ -144,7 +144,6 @@
   .noten1 {
     height: 50vh;
     width: auto;
-
   }
 
   .hoorn1 {
@@ -153,7 +152,41 @@
     margin-left: 10vw;
   }
 
-  .hoorn2{
+  .hoorn2 {
     margin-left: 20vw;
+  }
+}
+
+@media (max-width: 1200px) {
+
+  .stap__deel {
+    margin: 5vw 3vw;
+    width: 40vw;
+  }
+
+  .stap__flex {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+  }
+
+  .stap__deel--img {
+    width: 40rem;
+    height: auto;
+  }
+
+  .noten1 {
+    height: 40vh;
+  }
+
+  .noten3 {
+    width: 25vw;
+    height: auto;
+    margin: 0 2vw;
+  }
+
+  .hoorn2 {
+    width: 31vw;
+    height: auto;
   }
 }

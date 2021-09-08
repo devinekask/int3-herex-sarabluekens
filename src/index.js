@@ -12,35 +12,31 @@ require('@tensorflow/tfjs-backend-webgl');
     }
   };
 
-  init();
-}
 
-const handleSubmitCartForm = e => {
-  const $form = e.currentTarget;
-  e.preventDefault();
-  postOrder($form);
-};
+  const handleSubmitCartForm = e => {
+    const $form = e.currentTarget;
+    e.preventDefault();
+    postOrder($form);
+  };
 
-const postOrder = async $form => {
+  const postOrder = async $form => {
 
-  const response = await fetch($form.getAttribute('action'), {
-    method: 'POST',
-    headers: new Headers({
-      Accept: 'application/json'
-    }),
-    body: new FormData($form)
-  });
+    const response = await fetch($form.getAttribute('action'), {
+      method: 'POST',
+      headers: new Headers({
+        Accept: 'application/json'
+      }),
+      body: new FormData($form)
+    });
 
-  const returned = await response.json();
-  handleReturnSubmit(returned);
-
-  const handleReturnSubmit = data => {
-    const $errorText = document.querySelector(`.error--text`);
-    $errorText.textContent = '';
-
-    if (data.errors.text) {
-      $errorText.textContent = data.errors.text;
-    }
+    const returned = await response.json();
+    handleReturnSubmit(returned);
 
   };
-};
+
+  const handleReturnSubmit = () => {
+    const $errorText = document.querySelector(`.error--text`);
+    $errorText.textContent = '';
+  };
+  init();
+}

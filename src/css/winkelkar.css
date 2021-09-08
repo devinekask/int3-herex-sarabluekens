@@ -10,7 +10,7 @@
   display: grid;
   grid-auto-flow: row;
   grid-template-columns: repeat(2, 21vw);
-  grid-template-rows: repeat(2, 9vw);
+  grid-template-rows: repeat(2, 6vw);
   justify-content: center;
 }
 
@@ -53,6 +53,15 @@
 .cart__data--submit {
   width: 10vw;
   height: 5vw;
+  font-size: 2rem;
+  background-color: transparent;
+  color: var(--pink);
+  border-bottom: 0.5rem double var(--pink);
+  border-right: 0.5rem double var(--pink);
+  border-top: 0.3rem solid var(--pink);
+  border-left: 0.3rem solid var(--pink);
+  transform: translateY(4px);
+  margin-bottom: 4vw;
 }
 
 @media (max-width: 420px) {

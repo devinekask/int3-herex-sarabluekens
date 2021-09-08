@@ -5,18 +5,23 @@ require_once __DIR__ . '/../dao/MakerfaireDAO.php';
 
 class MakerfairesController extends Controller {
 
+  // private
+  private $makerfaireDAO;
+
   function __construct() {
     $this->makerfaireDAO = new MakerfaireDAO();
   }
   public function winkelkar() {
-  }
-
-  public function index() {
     if (!empty($_POST['action'])) {
-      if ($_POST['action'] == 'InsertOrder') {
+      //hier
+      if ($_POST['action'] == 'insertOrder') {
         $this->handleInsertOrder();
       }
     }
+  }
+
+  public function index() {
+    // dit verplaatsen
   }
 
   private function handleInsertOrder() {
@@ -43,6 +48,7 @@ class MakerfairesController extends Controller {
         exit();
       }
       $_SESSION['error'] = 'De bestelling kon niet worden geplaatst!';
+
     } else {
       // in het geval van een POST request uit JavaScript sturen we JSON terug met aangemaakte bestelling
       if (strtolower($_SERVER['HTTP_ACCEPT']) == 'application/json') {
@@ -54,7 +60,9 @@ class MakerfairesController extends Controller {
         // We sturen de response direct terug
         exit();
       }
-
+      $_SESSION['info'] = 'De bestelling is geplaatst!';
+      header('Location: index.php?page=bedankt');
+      exit();
     }
   }
   public function tutorial() {
@@ -92,5 +100,5 @@ class MakerfairesController extends Controller {
 
   public function bedankt() {
   }
-  }
+}
 ?>
