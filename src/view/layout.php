@@ -7,7 +7,7 @@
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/handpose"></script>
-  <title> Maker Faire </title>
+  <title> Maker Faire 21 </title>
   <?php echo $css;?>
 </head>
 <body >
